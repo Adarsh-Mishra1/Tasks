@@ -1,0 +1,42 @@
+/* Container Styling */
+.custom-calendar {
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Toolbar Styling */
+/* .custom-calendar .rbc-toolbar {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+} */
+
+/* Event Styling */
+.custom-calendar .rbc-event {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-size: 12px;
+}
+
+/* Day Cell Styling */
+.custom-calendar .rbc-day-bg {
+  background-color: #ffffff;
+}
+
+.custom-calendar .rbc-day-bg:hover {
+  background-color: #e8f5e9;
+}
+
+/* Current Day Highlight */
+.custom-calendar .rbc-today {
+  background-color: #fff5d7;
+  border: 1px solid #fada7a;
+  /* background-color: #fff3e0;
+  border: 1px solid #ffa726; */
+}

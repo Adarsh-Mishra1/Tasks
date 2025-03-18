@@ -1,0 +1,86 @@
+.box-1 {
+  border: 1px;
+  border-radius: 30px;
+  background-color: rgb(157 174 241 / 30%);
+  padding: 10px;
+  height: 280px;
+  /* display: flex; */
+}
+
+.box-2 {
+  /* border: 1px;
+  border-radius: 30px;
+  background-color: rgb(157 174 241 / 30%);
+  padding: 10px;
+  height: 300px; */
+  display: flex;
+}
+
+.card {
+  border: 1px;
+  background-color: rgb(157 174 241 / 30%);
+  border-radius: 30px;
+  padding: 10px;
+  height: 250px;
+  width: 300px;
+}
+
+.custom-radio-btn {
+  width: 18px;
+  height: 18px;
+  accent-color: black;
+}
+
+.radio-label {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+/* .custom-drodpdown {
+  border: 1px;
+  border-radius: 20px;
+  padding: 8px;
+} */
+
+.custom-dropdown {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 3px;
+  text-align: center;
+  text-align-last: center;
+  width: 120px;
+  appearance: none;
+  background-color: white;
+}
+
+.custom-input {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 150px;
+  /* width: 200px; */
+}
+
+.custom-checkbox {
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.custom-time {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 58px;
+  font-size: 11.5px;
+  /* font-size: smaller; */
+}
+
+.custom-heading {
+  font-weight: bold;
+}
+
+.custom-disable {
+  /* cursor: not-allowed; */
+  /* opacity: 0.6; */
+  /* pointer-events: none; */
+}

@@ -1,0 +1,144 @@
+.inputMoreLessButtonDiv {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding: 0px;
+}
+.form-control {
+  font-size: 14px;
+}
+.inputFldContainer {
+  /* border: 1px solid red; */
+  box-shadow: 2px 2px 6px gray;
+  padding: 2px 5px 5px 5px;
+  /* margin: 8px 0px; */
+  margin-bottom: 8px !important;
+}
+/* .inputFldContainer:first-child{
+    margin-top: 0px;
+} */
+.form-check-input {
+  position: relative;
+  top: 3px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 5px;
+}
+.form-checkbox {
+  display: inline-block;
+  height: 12px;
+  width: auto;
+  margin-right: 5px;
+  position: relative;
+  top: 1px;
+}
+.mainDivTest {
+  background-color: white;
+  /* border: 1px solid black; */
+  /* border: 1px solid red; */
+  vertical-align: middle;
+  width: 100%;
+  /* display: table; */
+  /* table-layout: auto; */
+  /* overflow-y: scroll; */
+  overflow-y: auto;
+}
+
+.mainDivTest .form-group {
+  padding: 2px 0px;
+}
+.trHr {
+  display: block;
+  margin-bottom: 0px;
+  font-size: 0px;
+  line-height: 0px;
+  height: 0 !important;
+  background-color: white;
+  margin: 0 !important;
+}
+.inputFieldCountShwTdLabel {
+  background-color: white;
+  font-weight: 500;
+  font-size: 0.9rem;
+  box-shadow: none;
+  padding: 0 10px;
+  /* min-width: 100px; */
+  min-width: 180px;
+  /* display: table; */
+
+  /* table-layout: auto; */
+  /* min-width: 80px; */
+  /* border: 1px solid blue; */
+  /* width: 100%; */
+  /* min-width: 100%; */
+  /* border: 1px solid black; */
+  /* vertical-align: middle; */
+}
+.inputFieldCountShwTd {
+  background-color: white;
+  font-weight: 500;
+  font-size: 0.9rem;
+  box-shadow: none;
+  padding: 0 10px;
+  /* border: 1px solid blue; */
+  /* width: 100%; */
+  /* width: fit-content; */
+  /* min-width: 100px; */
+  /* max-width: 180px; */
+  min-width: 180px;
+  /* border-left: 1px solid black; */
+  vertical-align: middle;
+  /* margin-bottom: 0px; */
+  /* display: inline; */
+}
+.inputFieldCountShwTdLabelNO {
+  min-width: 20px;
+}
+.inputFieldCountShwTdNo {
+  min-width: 20px;
+}
+.inputFieldCountShwTdLabel {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* width: 100%; */
+}
+.inputFieldCountShwTd input {
+  border: 1px solid #ced4da;
+  width: 100% !important;
+}
+/*End: for Conditional Tabular Look*/
+.inputFieldCountShwTd > .formRenderingFunctions {
+  box-shadow: none;
+  margin: 2px;
+  /* margin-right: 2px; */
+}
+
+.formRenderingFunctions {
+  /* border: 1px solid black; */
+  box-shadow: 0 0 5px gray;
+  /* background-color: white; */
+  padding: 0 5px;
+  margin-bottom: 2px;
+}
+/* .formRenderingFunctions .formRenderingLabelContainer{
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+    } */
+.formRenderingLabelContainer {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.formRenderingFunctions .form-control {
+  width: 100%;
+  line-height: normal;
+  min-height: fit-content;
+  padding: 1px 3px;
+  font-size: 0.8rem;
+}
+.adminFormFields {
+  background-color: whitesmoke;
+}
